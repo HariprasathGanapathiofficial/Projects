@@ -1,10 +1,14 @@
-# Decentralized Identity Project
+# Decentralized Identity Project in Rust
 
 ## Overview
-The **Decentralized Identity** project aims to empower individuals by providing them with control over their digital identities. By leveraging blockchain technology and decentralized identifiers (DIDs), this project facilitates secure, user-centric identity management without relying on centralized authorities.
+The **Decentralized Identity** project is implemented in Rust and aims to provide a secure and efficient way to manage digital identities using decentralized technologies. This project demonstrates how to create and verify decentralized identities through the use of cryptographic principles.
 
 ## Features
-- **Self-Sovereign Identity (SSI)**: Users have complete ownership and control over their identity data.
-- **Decentralized Identifiers (DIDs)**: Unique identifiers that are not issued by any central authority, enhancing privacy and security.
-- **Verifiable Credentials**: Users can share credentials selectively, ensuring that only necessary information is disclosed.
-- **Interoperability**: Compatible with various platforms and services, allowing seamless identity verification across different systems.
+- **Decentralized Identifiers (DIDs)**: Create and manage unique identifiers.
+- **Verifiable Credentials**: Issue and verify credentials securely.
+- **Rust Implementation**: Leverages Rust's performance and safety features.
+
+## Prerequisites
+Before you begin, ensure you have the following installed:
+- [Rust](https://www.rust-lang.org/) (version 1.50 or higher)
+- Cargo (Rust's package manager, which comes with Rust installation)
